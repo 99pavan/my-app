@@ -50,6 +50,8 @@
             <configuration>
                 <source>1.7</source>
                 <target>1.7</target>
+		<fork>true</fork>
+		<executable>/opt/jdk1.8.0_221/bin/javac</executable>
             </configuration>
         </plugin>
 	<plugin>
